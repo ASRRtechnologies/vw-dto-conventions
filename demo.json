@@ -1,0 +1,20 @@
+{
+    "$schema": "./schemas/vw-project-configurator-schema.json",
+
+    "configuration_type": "facade",
+    "content": {"name": "example_name",
+                "logo": "FORM",
+                "blocks": [{
+                    "name": "block_name",
+                    "position": {},
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "houses": [{
+
+                    }]
+                }]}
+
+}

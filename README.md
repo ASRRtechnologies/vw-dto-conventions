@@ -4,6 +4,7 @@
 ## Author's note: Work in Progress, will add further documentation and more robust pattern / key-value checking over time
 
 ## How to use the JSON schema to validate your JSON files before requesting
+Go to https://www.jsonschemavalidator.net/
 You can use the demo file 'demo.json' in the <b>root</b> directory of this repo. <br/>
 Some values were left out on purpose to show the functionality of the JSON schema:
 - Try hovering over the highlighted areas (the parts that look like they are complaining), you should see the required keys pop up.

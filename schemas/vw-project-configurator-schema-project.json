@@ -16,9 +16,9 @@
       "default": "project",
       "examples": [
         "project",
-        "facade"
+        "gevel"
       ],
-      "pattern": "project|facade"
+      "pattern": "project|gevel"
     },
     "content": {
       "$id": "#/properties/content",

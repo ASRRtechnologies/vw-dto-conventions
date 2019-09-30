@@ -5,7 +5,7 @@
 
 ## How to use the JSON schema to validate your JSON files before requesting
 ### In your browser:
-Go to https://www.jsonschemavalidator.net/ and paste the contents of the json schema file (<b>'vw-project-configurator-schema.json'</b> in the /schemas/ directory) in the left textbox. Now you can test if your json files are valid by writing/pasting them in the right textbox. The red messages below will let you know if there are any incorrect or missing parameters/values.</br>
+Go to https://www.jsonschemavalidator.net/ and paste the contents of a json schema file (<b>'vw-project-configurator-schema-project.json'</b> in the /schemas/ directory) in the left textbox. Now you can test if your json files are valid by writing/pasting them in the right textbox. The red messages below will let you know if there are any incorrect or missing parameters/values.</br>
 ### OR
 ### In your (compatible) editor:
 Alternatively, to test it directly in your editor (we suggest <b>visual studio code</b>), clone or download this repo to your desired location on your PC. Thereafter, you can use the demo file 'demo.json' to write your own json and it will automatically be checked for validity in your editor through suggestions or warnings.<br/>

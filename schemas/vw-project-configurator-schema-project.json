@@ -377,7 +377,6 @@
                               "type": "object",
                               "title": "The Items Schema",
                               "required": [
-                                "type",
                                 "position",
                                 "width",
                                 "height"
@@ -389,7 +388,10 @@
                                   "title": "The Type Schema",
                                   "default": "",
                                   "examples": [
-                                    "kozijn"
+                                    "kozijn",
+                                    "dorpel",
+                                    "rollaag",
+                                    "sparing"
                                   ],
                                   "pattern": "^(.*)$"
                                 },

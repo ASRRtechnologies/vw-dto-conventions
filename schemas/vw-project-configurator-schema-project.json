@@ -66,7 +66,7 @@
                 "properties": {
                   "x": {
                     "$id": "#/properties/content/properties/blocks/items/properties/position/properties/x",
-                    "type": "integer",
+                    "type": "number",
                     "title": "The X Schema",
                     "default": 0,
                     "examples": [
@@ -75,7 +75,7 @@
                   },
                   "y": {
                     "$id": "#/properties/content/properties/blocks/items/properties/position/properties/y",
-                    "type": "integer",
+                    "type": "number",
                     "title": "The Y Schema",
                     "default": 0,
                     "examples": [
@@ -84,7 +84,7 @@
                   },
                   "z": {
                     "$id": "#/properties/content/properties/blocks/items/properties/position/properties/z",
-                    "type": "integer",
+                    "type": "number",
                     "title": "The Z Schema",
                     "default": 0,
                     "examples": [
@@ -105,7 +105,7 @@
                 "properties": {
                   "x": {
                     "$id": "#/properties/content/properties/blocks/items/properties/rotation/properties/x",
-                    "type": "integer",
+                    "type": "number",
                     "title": "The X Schema",
                     "default": 0,
                     "examples": [
@@ -114,7 +114,7 @@
                   },
                   "y": {
                     "$id": "#/properties/content/properties/blocks/items/properties/rotation/properties/y",
-                    "type": "integer",
+                    "type": "number",
                     "title": "The Y Schema",
                     "default": 0,
                     "examples": [
@@ -123,7 +123,7 @@
                   },
                   "z": {
                     "$id": "#/properties/content/properties/blocks/items/properties/rotation/properties/z",
-                    "type": "integer",
+                    "type": "number",
                     "title": "The Z Schema",
                     "default": 0,
                     "examples": [
@@ -179,7 +179,7 @@
                       "properties": {
                         "x": {
                           "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/position/properties/x",
-                          "type": "integer",
+                          "type": "number",
                           "title": "The X Schema",
                           "default": 0,
                           "examples": [
@@ -188,7 +188,7 @@
                         },
                         "y": {
                           "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/position/properties/y",
-                          "type": "integer",
+                          "type": "number",
                           "title": "The Y Schema",
                           "default": 0,
                           "examples": [
@@ -197,7 +197,7 @@
                         },
                         "z": {
                           "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/position/properties/z",
-                          "type": "integer",
+                          "type": "number",
                           "title": "The Z Schema",
                           "default": 0,
                           "examples": [
@@ -218,7 +218,7 @@
                       "properties": {
                         "x": {
                           "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/rotation/properties/x",
-                          "type": "integer",
+                          "type": "number",
                           "title": "The X Schema",
                           "default": 0,
                           "examples": [
@@ -227,7 +227,7 @@
                         },
                         "y": {
                           "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/rotation/properties/y",
-                          "type": "integer",
+                          "type": "number",
                           "title": "The Y Schema",
                           "default": 0,
                           "examples": [
@@ -236,7 +236,7 @@
                         },
                         "z": {
                           "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/rotation/properties/z",
-                          "type": "integer",
+                          "type": "number",
                           "title": "The Z Schema",
                           "default": 0,
                           "examples": [
@@ -283,7 +283,7 @@
                           },
                           "level": {
                             "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/elements/items/properties/level",
-                            "type": "integer",
+                            "type": "number",
                             "title": "The Level Schema",
                             "default": 0,
                             "examples": [
@@ -302,7 +302,7 @@
                             "properties": {
                               "x": {
                                 "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/elements/items/properties/position/properties/x",
-                                "type": "integer",
+                                "type": "number",
                                 "title": "The X Schema",
                                 "default": 0,
                                 "examples": [
@@ -311,7 +311,7 @@
                               },
                               "y": {
                                 "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/elements/items/properties/position/properties/y",
-                                "type": "integer",
+                                "type": "number",
                                 "title": "The Y Schema",
                                 "default": 0,
                                 "examples": [
@@ -320,7 +320,7 @@
                               },
                               "z": {
                                 "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/elements/items/properties/position/properties/z",
-                                "type": "integer",
+                                "type": "number",
                                 "title": "The Z Schema",
                                 "default": 0,
                                 "examples": [
@@ -341,7 +341,7 @@
                             "properties": {
                               "x": {
                                 "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/elements/items/properties/rotation/properties/x",
-                                "type": "integer",
+                                "type": "number",
                                 "title": "The X Schema",
                                 "default": 0,
                                 "examples": [
@@ -350,7 +350,7 @@
                               },
                               "y": {
                                 "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/elements/items/properties/rotation/properties/y",
-                                "type": "integer",
+                                "type": "number",
                                 "title": "The Y Schema",
                                 "default": 0,
                                 "examples": [
@@ -359,7 +359,7 @@
                               },
                               "z": {
                                 "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/elements/items/properties/rotation/properties/z",
-                                "type": "integer",
+                                "type": "number",
                                 "title": "The Z Schema",
                                 "default": 0,
                                 "examples": [
@@ -405,7 +405,7 @@
                                   "properties": {
                                     "x": {
                                       "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/elements/items/properties/elements/items/properties/position/properties/x",
-                                      "type": "integer",
+                                      "type": "number",
                                       "title": "The X Schema",
                                       "default": 0,
                                       "examples": [
@@ -414,7 +414,7 @@
                                     },
                                     "y": {
                                       "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/elements/items/properties/elements/items/properties/position/properties/y",
-                                      "type": "integer",
+                                      "type": "number",
                                       "title": "The Y Schema",
                                       "default": 0,
                                       "examples": [
@@ -423,7 +423,7 @@
                                     },
                                     "z": {
                                       "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/elements/items/properties/elements/items/properties/position/properties/z",
-                                      "type": "integer",
+                                      "type": "number",
                                       "title": "The Z Schema",
                                       "default": 0,
                                       "examples": [
@@ -434,7 +434,7 @@
                                 },
                                 "width": {
                                   "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/elements/items/properties/elements/items/properties/width",
-                                  "type": "integer",
+                                  "type": "number",
                                   "title": "The Width Schema",
                                   "default": 0,
                                   "examples": [
@@ -443,7 +443,7 @@
                                 },
                                 "height": {
                                   "$id": "#/properties/content/properties/blocks/items/properties/houses/items/properties/elements/items/properties/elements/items/properties/height",
-                                  "type": "integer",
+                                  "type": "number",
                                   "title": "The Height Schema",
                                   "default": 0,
                                   "examples": [

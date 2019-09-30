@@ -5,51 +5,30 @@
   "type": "object",
   "title": "FORM json file structure conventions",
   "required": [
-    "configuration_type",
-    "content"
+    "projectName",
+    "source",
+    "type",
+    "options"
   ],
   "properties": {
-    "configuration_type": {
-      "$id": "#/properties/configuration_type",
+    "type": {
+      "$id": "#/properties/type",
       "type": "string",
-      "title": "The Configuration_type Schema",
+      "title": "The Configuration_Type Schema",
       "default": "project",
       "examples": [
-        "project",
-        "gevel"
+        "project"
       ],
-      "pattern": "project|gevel"
+      "pattern": "project"
     },
-    "content": {
-      "$id": "#/properties/content",
+    "options": {
+      "$id": "#/properties/options",
       "type": "object",
       "title": "The Content Schema",
       "required": [
-        "name",
-        "logo",
         "blocks"
       ],
       "properties": {
-        "name": {
-          "$id": "#/properties/content/properties/name",
-          "type": "string",
-          "title": "The Name Schema",
-          "default": "",
-          "examples": [
-            "Coolname"
-          ],
-          "pattern": "^(.*)$"
-        },
-        "logo": {
-          "$id": "#/properties/content/properties/logo",
-          "type": "string",
-          "title": "The Logo Schema",
-          "default": "",
-          "examples": [
-            "testlogo"
-          ],
-          "pattern": "^(.*)$"
-        },
         "blocks": {
           "$id": "#/properties/content/properties/blocks",
           "type": "array",

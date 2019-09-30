@@ -12,3 +12,6 @@ Alternatively, to test it directly in your editor (we suggest <b>visual studio c
 Some values were left out on purpose to show the functionality of the JSON schema:
 - Try hovering over the highlighted areas (the parts that look like they are complaining), you should see the required keys pop up.
 - Not all keys are required, but there are a few exceptions: <i>e.g. the (sub)elements are not required, but if included, their properties must exist.</i>
+
+## Send requests using Swagger UI:
+http://hive.vw.asrr-tech.com:10000/swagger-ui.html#/configuration-controller

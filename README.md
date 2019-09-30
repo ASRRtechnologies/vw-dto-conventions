@@ -15,3 +15,6 @@ Some values were left out on purpose to show the functionality of the JSON schem
 
 ## Send requests using Swagger UI:
 http://hive.vw.asrr-tech.com:10000/swagger-ui.html#/configuration-controller
+
+## Check your configuration on the dashboard:
+www.volkerwessels.asrr.nl

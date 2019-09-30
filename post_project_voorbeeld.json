@@ -1,0 +1,70 @@
+{
+    "projectName": "PROJECTNAAM",
+    "source": "UWKM",
+    "type": "project",
+    "options": {
+        "blocks": [
+            {
+                "name": "Woningblok#1",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 1,
+                    "y": 0,
+                    "z": 0
+                },
+                "houses": [
+                    {
+                        "name": "Zadeldak Links",
+                        "house_number": 1,
+                        "position": {
+                            "x": 280,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "rotation": {
+                            "x": 1,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "elements": [
+                            {
+                                "name": "Zadeldak Links Geen Voorgevel",
+                                "id": "zadeldak_links_geen_voorgevel",
+                                "level": 0,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            {
+                                "name": "Voorgevel",
+                                "id": "voorgevel",
+                                "level": 0,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

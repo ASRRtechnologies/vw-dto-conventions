@@ -26,6 +26,16 @@
                 },
                 "width": 700,
                 "height": 700
+            },
+            {
+                "type": "sparing",
+                "position": {
+                    "x": 400,
+                    "y": 70,
+                    "z": 300
+                },
+                "width": 700,
+                "height": 700
             }
         ]
     }

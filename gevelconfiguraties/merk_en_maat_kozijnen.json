@@ -1,0 +1,662 @@
+[
+  {
+    "Merk": "AA01-00",
+    "Soort": "Voordeur",
+    "Breedte": 1110,
+    "Hoogte": 2434
+  },
+  {
+    "Merk": "BA02-00",
+    "Soort": "Achterdeur",
+    "Breedte": 1110,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "FA01-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1880,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "FA02-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1990,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "FA03-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 2100,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "FA04-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 2210,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "FB01-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 2870,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "DA01-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1880,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "DA02-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1990,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "DA03-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 2100,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "DA04-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 2210,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "DB01-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 2210,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "DB02-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 2320,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "DB03-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 2430,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "DC01-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 2430,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "DC02-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 2540,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "EA01-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1220,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "EA02-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1330,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "EA03-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1440,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "EA04-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1550,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "EA05-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1660,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "EA06-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1770,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "EC01-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1220,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "EC02-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1330,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "EC03-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1440,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "EC04-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1550,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "EC05-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1660,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "EC06-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1770,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "GA01-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 340,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "GA02-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 450,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "GA03-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 560,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "GA04-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 670,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "GA05-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 780,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "GA06-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 890,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "GA07-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1000,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "HA01-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 450,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "HA02-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 560,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "HA03-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 670,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "HA04-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 780,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "HA05-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 890,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "HA06-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1000,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "HA07-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1110,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "HB30-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 450,
+    "Hoogte": 1817
+  },
+  {
+    "Merk": "HB31-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 560,
+    "Hoogte": 1817
+  },
+  {
+    "Merk": "HB32-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 670,
+    "Hoogte": 1817
+  },
+  {
+    "Merk": "HB33-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 780,
+    "Hoogte": 1817
+  },
+  {
+    "Merk": "HB34-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 890,
+    "Hoogte": 1817
+  },
+  {
+    "Merk": "HB35-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1000,
+    "Hoogte": 1817
+  },
+  {
+    "Merk": "HB36-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1110,
+    "Hoogte": 1817
+  },
+  {
+    "Merk": "KA01-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 450,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "KA02-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 560,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "KA03-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 670,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "KA04-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 780,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "KA05-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 890,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "KA06-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1000,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "KA07-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1110,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "NA01-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 450,
+    "Hoogte": 2037
+  },
+  {
+    "Merk": "NA02-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 560,
+    "Hoogte": 2037
+  },
+  {
+    "Merk": "NA03-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 670,
+    "Hoogte": 2037
+  },
+  {
+    "Merk": "NA04-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 780,
+    "Hoogte": 2037
+  },
+  {
+    "Merk": "NA05-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 890,
+    "Hoogte": 2037
+  },
+  {
+    "Merk": "NA06-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1000,
+    "Hoogte": 2037
+  },
+  {
+    "Merk": "NA07-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1110,
+    "Hoogte": 2037
+  },
+  {
+    "Merk": "CB01-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1220,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CB02-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1330,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CB03-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1440,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CB04-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1550,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CB05-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1660,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CB06-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1770,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CB07-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1880,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CC01-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 450,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CC02-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 560,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CC03-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 670,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CC04-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 780,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CC05-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 890,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CC06-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1000,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CC07-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1110,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CD01-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 450,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CD02-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 560,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CD03-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 670,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CD04-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 780,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CD05-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 890,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CD06-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1000,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CD07-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1110,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CE01-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 450,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CE02-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 560,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CE03-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 670,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CE04-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 780,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CE05-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 890,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CE06-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1000,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CE07-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1110,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CF01-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 450,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CF02-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 560,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CF03-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 670,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CF04-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 780,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CF05-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 890,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CF06-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1000,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "CF07-00",
+    "Soort": "Kozijn BG",
+    "Breedte": 1110,
+    "Hoogte": 2414
+  },
+  {
+    "Merk": "JA01-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1220,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "JA02-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1330,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "JA03-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1440,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "JA04-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1550,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "JA05-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1660,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "JA06-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1770,
+    "Hoogte": 1385
+  },
+  {
+    "Merk": "JC31-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1220,
+    "Hoogte": 1817
+  },
+  {
+    "Merk": "JC32-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1330,
+    "Hoogte": 1817
+  },
+  {
+    "Merk": "JC33-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1440,
+    "Hoogte": 1817
+  },
+  {
+    "Merk": "JC34-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1550,
+    "Hoogte": 1817
+  },
+  {
+    "Merk": "JC35-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1660,
+    "Hoogte": 1817
+  },
+  {
+    "Merk": "JC36-00",
+    "Soort": "Kozijn vrij",
+    "Breedte": 1770,
+    "Hoogte": 1817
+  }
+]

@@ -1,7 +1,11 @@
 voorgevel
 zadeldak_links_geen_voorgevel
+zadeldak_links_zonder_voorgevels
 zadeldak_midden_geen_voorgevel
+zadeldak_midden_zonder_voorgevels
 zadeldak_rechts_geen_voorgevel
+zadeldak_rechts_zonder_voorgevels
+
 AA01-00
 BA01-00
 BA02-00

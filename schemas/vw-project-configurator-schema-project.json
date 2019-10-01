@@ -377,6 +377,7 @@
                               "type": "object",
                               "title": "The Items Schema",
                               "required": [
+                                "id",
                                 "position",
                                 "width",
                                 "height"

@@ -1,0 +1,153 @@
+{
+    "projectName": "PROJECTNAAM",
+    "source": "UWKM",
+    "type": "project",
+    "options": {
+        "blocks": [
+            {
+                "name": "Woningblok#1",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 1,
+                    "y": 0,
+                    "z": 0
+                },
+                "houses": [
+                    {
+                        "name": "Zadeldak Links",
+                        "house_number": 1,
+                        "position": {
+                            "x": 280,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "rotation": {
+                            "x": 1,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "elements": [
+                            {
+                                "name": "Zadeldak Links Zonder Voorgevels",
+                                "id": "zadeldak_links_zonder_voorgevels",
+                                "level": 0,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            {
+                                "name": "Voorgevel BG",
+                                "id": "voorgevel",
+                                "level": 0,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "elements": [
+                                    {
+                                        "type": "kozijn", 
+                                        "id": "KA05-00", 
+                                        "position": {
+                                            "x": 1500,
+                                            "y": 70, 
+                                            "z": 1145
+                                        },
+                                        "width": 890,
+                                        "height": 1385
+                                    },
+                                    {
+                                        "type": "dorpel",  
+                                        "id": "dorpel", 
+                                        "position": {
+                                            "x": 1500,
+                                            "y": 0, 
+                                            "z": 1055
+                                        },
+                                        "width": 890,
+                                        "height": 90
+                                    },
+                                    {
+                                        "type": "sparing",
+                                        "position": {
+                                            "x": 1500,
+                                            "y": 0,
+                                            "z": 1055
+                                        },
+                                        "width": 890,
+                                        "height": 1475
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Voorgevel 1e",
+                                "id": "voorgevel",
+                                "level": 1,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "elements": [
+                                    {
+                                        "type": "kozijn", 
+                                        "id": "KA05-00", 
+                                        "position": {
+                                            "x": 1500,
+                                            "y": 70, 
+                                            "z": 1145
+                                        },
+                                        "width": 890,
+                                        "height": 1385
+                                    },
+                                    {
+                                        "type": "dorpel",  
+                                        "id": "dorpel", 
+                                        "position": {
+                                            "x": 1500,
+                                            "y": 0, 
+                                            "z": 1055
+                                        },
+                                        "width": 890,
+                                        "height": 90
+                                    },
+                                    {
+                                        "type": "sparing",
+                                        "position": {
+                                            "x": 1500,
+                                            "y": 0,
+                                            "z": 1055
+                                        },
+                                        "width": 890,
+                                        "height": 1475
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

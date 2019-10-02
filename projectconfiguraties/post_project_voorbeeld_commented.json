@@ -1,8 +1,8 @@
 {
-    "projectName": "PROJECTNAAM",
+    "projectName": "PROJECTNAAM", //Het hoofdbestanddeel dat aankomt bij de Thin Client 
     "source": "UWKM",
     "type": "project",
-    "options": {
+    "options": { //Dit deel wordt naar de add-in verstuurd
         "name": "PROJECTNAAM",
         "logo": "digibase",
         "contact": "Meneer Man",
@@ -35,8 +35,8 @@
                         },
                         "elements": [
                             {
-                                "name": "Zadeldak Links Zonder Voorgevels",
-                                "id": "zadeldak_links_zonder_voorgevels",
+                                "name": "Zadeldak Links Geen Voorgevel",
+                                "id": "zadeldak_links_geen_voorgevel",
                                 "level": 0,
                                 "position": {
                                     "x": 0,
@@ -50,7 +50,7 @@
                                 }
                             },
                             {
-                                "name": "Voorgevel BG",
+                                "name": "Voorgevel",
                                 "id": "voorgevel",
                                 "level": 0,
                                 "position": {
@@ -66,14 +66,14 @@
                                 "elements": [
                                     {
                                         "type": "kozijn", 
-                                        "id": "KA05-00", 
+                                        "id": "AA01-00", 
                                         "position": {
                                             "x": 1500,
                                             "y": 70, 
                                             "z": 1145
                                         },
-                                        "width": 890,
-                                        "height": 1385
+                                        "width": 1900,
+                                        "height": 1155
                                     },
                                     {
                                         "type": "dorpel",  
@@ -83,7 +83,7 @@
                                             "y": 0, 
                                             "z": 1055
                                         },
-                                        "width": 890,
+                                        "width": 1900,
                                         "height": 90
                                     },
                                     {
@@ -93,57 +93,8 @@
                                             "y": 0,
                                             "z": 1055
                                         },
-                                        "width": 890,
-                                        "height": 1475
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Voorgevel 1e",
-                                "id": "voorgevel",
-                                "level": 1,
-                                "position": {
-                                    "x": 0,
-                                    "y": 0,
-                                    "z": 0
-                                },
-                                "rotation": {
-                                    "x": 1,
-                                    "y": 0,
-                                    "z": 0
-                                },
-                                "elements": [
-                                    {
-                                        "type": "kozijn", 
-                                        "id": "KA05-00", 
-                                        "position": {
-                                            "x": 1500,
-                                            "y": 70, 
-                                            "z": 1145
-                                        },
-                                        "width": 890,
-                                        "height": 1385
-                                    },
-                                    {
-                                        "type": "dorpel",  
-                                        "id": "dorpel", 
-                                        "position": {
-                                            "x": 1500,
-                                            "y": 0, 
-                                            "z": 1055
-                                        },
-                                        "width": 890,
-                                        "height": 90
-                                    },
-                                    {
-                                        "type": "sparing",
-                                        "position": {
-                                            "x": 1500,
-                                            "y": 0,
-                                            "z": 1055
-                                        },
-                                        "width": 890,
-                                        "height": 1475
+                                        "width": 1900,
+                                        "height": 1245
                                     }
                                 ]
                             }

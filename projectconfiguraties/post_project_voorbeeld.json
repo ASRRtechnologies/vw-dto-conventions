@@ -3,6 +3,9 @@
     "source": "UWKM",
     "type": "project",
     "options": {
+        "name": "PROJECTNAAM",
+        "logo": "digibase",
+        "contact": "Meneer Man",
         "blocks": [
             {
                 "name": "Woningblok#1",

@@ -233,6 +233,8 @@
                                     "sparing",
                                     "kozijn",
                                     "rollaag",
+                                    "rollaag_horizontaal",
+                                    "rollaag_verticaal",
                                     "vlakvulling",
                                     "dorpel"
                                   ]

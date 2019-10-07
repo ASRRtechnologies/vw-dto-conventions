@@ -14,7 +14,7 @@ Some values were left out on purpose to show the functionality of the JSON schem
 - Not all keys are required, but there are a few exceptions: <i>e.g. the (sub)elements are not required, but if included, their properties must exist.</i>
 
 ## Send requests using Swagger UI:
-http://hive.vw.asrr-tech.com:10000/swagger-ui.html#/configuration-controller
+https://hive.vw.asrr-tech.com/api/v3/hive/swagger-ui.html#/configuration-controller
 
 ## Check your configuration on the dashboard:
 www.volkerwessels.asrr.nl

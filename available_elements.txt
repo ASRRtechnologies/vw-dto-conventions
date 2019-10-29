@@ -1,4 +1,26 @@
+BadkamerA1
+BadkamerA2
+BadkamerA3
+BadkamerB1
+BadkamerB2
+BadkamerB3
+BadkamerC1
+BadkamerC2
+BadkamerC3
+CascoA5400
+dakvlakDicht
+dakvlakOpenGroot
+Getimmerde bakgoot
+IndelingA3
+IndelingB3
+KeukenA1
+KeukenA2
+KeukenA3
+Trap_A
+Tussenwoning spouwmuur links
+Tussenwoning spouwmuur rechts
 voorgevel
+voorgevel_1e
 zadeldak_links_geen_voorgevel
 zadeldak_links_zonder_voorgevels
 zadeldak_midden_geen_voorgevel

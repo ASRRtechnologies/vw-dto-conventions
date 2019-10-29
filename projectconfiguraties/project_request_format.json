@@ -1,0 +1,11 @@
+{
+    "projectName": "ProjectName",
+    "type": "project",
+    "source": "You",
+    "options": {
+        "name": "ProjectName",
+        "logo": "boele_en_van_eesteren",
+        "contact": "Meneer Man",
+        "blocks": []
+    }
+}

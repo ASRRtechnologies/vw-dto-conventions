@@ -10,13 +10,13 @@
             {
                 "name": "Woningblok#1",
                 "position": {
-                    "x": 0,
-                    "y": 0,
+                    "x": 4000,
+                    "y": 2000,
                     "z": 0
                 },
                 "rotation": {
-                    "x": 1,
-                    "y": 0,
+                    "x": 0.5,
+                    "y": 0.4,
                     "z": 0
                 },
                 "houses": [
@@ -283,7 +283,41 @@
                                         "g": 145,
                                         "b": 99
                                     }
-                                }
+                                },
+                                "elements": [
+                                    {
+                                        "type": "kozijn", 
+                                        "id": "HB33-00", 
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 70, 
+                                            "z": 500
+                                        },
+                                        "width": 780,
+                                        "height": 1817
+                                    },
+                                    {
+                                        "type": "dorpel",  
+                                        "id": "dorpel", 
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 0, 
+                                            "z": 400
+                                        },
+                                        "width": 780,
+                                        "height": 90
+                                    },
+                                    {
+                                        "type": "sparing",
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 0,
+                                            "z": 400
+                                        },
+                                        "width": 780,
+                                        "height": 1917
+                                    }
+                                ]
                             },
                             {
                                 "name": "Achtergevel 1e",
@@ -306,7 +340,41 @@
                                         "g": 145,
                                         "b": 99
                                     }
-                                }
+                                },
+                                "elements": [
+                                    {
+                                        "type": "kozijn", 
+                                        "id": "HB33-00", 
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 70, 
+                                            "z": 500
+                                        },
+                                        "width": 780,
+                                        "height": 1817
+                                    },
+                                    {
+                                        "type": "dorpel",  
+                                        "id": "dorpel", 
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 0, 
+                                            "z": 400
+                                        },
+                                        "width": 780,
+                                        "height": 90
+                                    },
+                                    {
+                                        "type": "sparing",
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 0,
+                                            "z": 400
+                                        },
+                                        "width": 780,
+                                        "height": 1917
+                                    }
+                                ]
                             },
                             {
                                 "name": "Con Vloer BG",
@@ -474,23 +542,8 @@
                                 }
                             },
                             {
-                                "name": "Dak Vlak Eind Links Voor",
+                                "name": "Dak Vlak Eind Links Voor Hoek",
                                 "id": "0_a_2_L_38_e_90_g",
-                                "level": 2,
-                                "position": {
-                                    "x": 0,
-                                    "y": 0,
-                                    "z": 0
-                                },
-                                "rotation": {
-                                    "x": 1,
-                                    "y": 0,
-                                    "z": 0
-                                }
-                            },
-                            {
-                                "name": "Dak Goot Voor",
-                                "id": "0_2_b_c_38_54_f_g",
                                 "level": 2,
                                 "position": {
                                     "x": 0,
@@ -519,8 +572,38 @@
                                 }
                             },
                             {
+                                "name": "Dak Goot Voor",
+                                "id": "0_2_b_c_38_54_f_g",
+                                "level": 2,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            {
                                 "name": "Dak Vlak Rechts Voor",
                                 "id": "0_a_b_R_38_54_90_Z",
+                                "level": 2,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            {
+                                "name": "Dak Vlak Eind Rechts Voor",
+                                "id": "0_a_6_R_38_54_90_g",
                                 "level": 2,
                                 "position": {
                                     "x": 0,
@@ -579,6 +662,21 @@
                                 }
                             },
                             {
+                                "name": "Dak Vlak Eind Rechts Achter",
+                                "id": "0_a_6_L_38_e_90_g",
+                                "level": 2,
+                                "position": {
+                                    "x": 5400,
+                                    "y": 9030,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": -1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            {
                                 "name": "Dak Vlak Links Achter",
                                 "id": "0_a_b_R_38_54_90_Z",
                                 "level": 2,
@@ -594,7 +692,7 @@
                                 }
                             },
                             {
-                                "name": "Dak Vlak Eind Links Achter",
+                                "name": "Dak Vlak Eind Links Achter Hoek",
                                 "id": "0_a_2_R_38_e_90_g",
                                 "level": 2,
                                 "position": {
@@ -604,6 +702,21 @@
                                 },
                                 "rotation": {
                                     "x": -1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            {
+                                "name": "Dak Nok",
+                                "id": "0_0_b_c_38_54_90_g",
+                                "level": 2,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": 1,
                                     "y": 0,
                                     "z": 0
                                 }
@@ -703,7 +816,40 @@
                                         "b": 99
                                     }
                                 },
-                                
+                                "elements": [
+                                    {
+                                        "type": "kozijn", 
+                                        "id": "HB33-00", 
+                                        "position": {
+                                            "x": 2900,
+                                            "y": 70, 
+                                            "z": 500
+                                        },
+                                        "width": 780,
+                                        "height": 1817
+                                    },
+                                    {
+                                        "type": "dorpel",  
+                                        "id": "dorpel", 
+                                        "position": {
+                                            "x": 2900,
+                                            "y": 0, 
+                                            "z": 400
+                                        },
+                                        "width": 780,
+                                        "height": 90
+                                    },
+                                    {
+                                        "type": "sparing",
+                                        "position": {
+                                            "x": 2900,
+                                            "y": 0,
+                                            "z": 400
+                                        },
+                                        "width": 780,
+                                        "height": 1917
+                                    }
+                                ]
                             },
                             {
                                 "name": "Casco BG Links",
@@ -816,7 +962,41 @@
                                         "g": 145,
                                         "b": 99
                                     }
-                                }
+                                },
+                                "elements": [
+                                    {
+                                        "type": "kozijn", 
+                                        "id": "HB33-00", 
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 70, 
+                                            "z": 500
+                                        },
+                                        "width": 780,
+                                        "height": 1817
+                                    },
+                                    {
+                                        "type": "dorpel",  
+                                        "id": "dorpel", 
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 0, 
+                                            "z": 400
+                                        },
+                                        "width": 780,
+                                        "height": 90
+                                    },
+                                    {
+                                        "type": "sparing",
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 0,
+                                            "z": 400
+                                        },
+                                        "width": 780,
+                                        "height": 1917
+                                    }
+                                ]
                             },
                             {
                                 "name": "Achtergevel 1e",
@@ -839,7 +1019,41 @@
                                         "g": 145,
                                         "b": 99
                                     }
-                                }
+                                },
+                                "elements": [
+                                    {
+                                        "type": "kozijn", 
+                                        "id": "HB33-00", 
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 70, 
+                                            "z": 500
+                                        },
+                                        "width": 780,
+                                        "height": 1817
+                                    },
+                                    {
+                                        "type": "dorpel",  
+                                        "id": "dorpel", 
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 0, 
+                                            "z": 400
+                                        },
+                                        "width": 780,
+                                        "height": 90
+                                    },
+                                    {
+                                        "type": "sparing",
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 0,
+                                            "z": 400
+                                        },
+                                        "width": 780,
+                                        "height": 1917
+                                    }
+                                ]
                             },
                             {
                                 "name": "Con Vloer BG",
@@ -1022,8 +1236,38 @@
                                 }
                             },
                             {
+                                "name": "Dak Vlak Eind Links Voor",
+                                "id": "0_a_6_L_38_e_90_g",
+                                "level": 2,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            {
                                 "name": "Dak Vlak Rechts Voor",
                                 "id": "0_a_b_R_38_54_90_Z",
+                                "level": 2,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            {
+                                "name": "Dak Vlak Eind Rechts Voor",
+                                "id": "0_a_6_R_38_54_90_g",
                                 "level": 2,
                                 "position": {
                                     "x": 0,
@@ -1067,6 +1311,21 @@
                                 }
                             },
                             {
+                                "name": "Dak Vlak Eind Rechts Achter",
+                                "id": "0_a_6_L_38_e_90_g",
+                                "level": 2,
+                                "position": {
+                                    "x": 5400,
+                                    "y": 9030,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": -1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            {
                                 "name": "Dak Vlak Links Achter",
                                 "id": "0_a_b_R_38_54_90_Z",
                                 "level": 2,
@@ -1077,6 +1336,36 @@
                                 },
                                 "rotation": {
                                     "x": -1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            {
+                                "name": "Dak Vlak Eind Links Achter",
+                                "id": "0_a_6_R_38_54_90_g",
+                                "level": 2,
+                                "position": {
+                                    "x": 5400,
+                                    "y": 9030,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": -1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            {
+                                "name": "Dak Nok",
+                                "id": "0_0_b_c_38_54_90_g",
+                                "level": 2,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": 1,
                                     "y": 0,
                                     "z": 0
                                 }
@@ -1346,7 +1635,41 @@
                                         "g": 145,
                                         "b": 99
                                     }
-                                }
+                                },
+                                "elements": [
+                                    {
+                                        "type": "kozijn", 
+                                        "id": "HB33-00", 
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 70, 
+                                            "z": 500
+                                        },
+                                        "width": 780,
+                                        "height": 1817
+                                    },
+                                    {
+                                        "type": "dorpel",  
+                                        "id": "dorpel", 
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 0, 
+                                            "z": 400
+                                        },
+                                        "width": 780,
+                                        "height": 90
+                                    },
+                                    {
+                                        "type": "sparing",
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 0,
+                                            "z": 400
+                                        },
+                                        "width": 780,
+                                        "height": 1917
+                                    }
+                                ]
                             },
                             {
                                 "name": "Achtergevel 1e",
@@ -1369,7 +1692,41 @@
                                         "g": 145,
                                         "b": 99
                                     }
-                                }
+                                },
+                                "elements": [
+                                    {
+                                        "type": "kozijn", 
+                                        "id": "HB33-00", 
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 70, 
+                                            "z": 500
+                                        },
+                                        "width": 780,
+                                        "height": 1817
+                                    },
+                                    {
+                                        "type": "dorpel",  
+                                        "id": "dorpel", 
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 0, 
+                                            "z": 400
+                                        },
+                                        "width": 780,
+                                        "height": 90
+                                    },
+                                    {
+                                        "type": "sparing",
+                                        "position": {
+                                            "x": 1900,
+                                            "y": 0,
+                                            "z": 400
+                                        },
+                                        "width": 780,
+                                        "height": 1917
+                                    }
+                                ]
                             },
                             {
                                 "name": "Con Vloer BG",
@@ -1567,6 +1924,21 @@
                                 }
                             },
                             {
+                                "name": "Dak Vlak Eind Links Voor",
+                                "id": "0_a_6_L_38_e_90_g",
+                                "level": 2,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            {
                                 "name": "Dak Vlak Rechts Voor",
                                 "id": "0_a_b_R_38_54_90_Z",
                                 "level": 2,
@@ -1582,7 +1954,7 @@
                                 }
                             },
                             {
-                                "name": "Dak Vlak Eind Rechts Voor",
+                                "name": "Dak Vlak Eind Rechts Voor Hoek",
                                 "id": "0_a_2_R_38_e_90_g",
                                 "level": 2,
                                 "position": {
@@ -1642,7 +2014,7 @@
                                 }
                             },
                             {
-                                "name": "Dak Vlak Eind Rechts Achter",
+                                "name": "Dak Vlak Eind Rechts Achter Hoek",
                                 "id": "0_a_2_L_38_e_90_g",
                                 "level": 2,
                                 "position": {
@@ -1667,6 +2039,36 @@
                                 },
                                 "rotation": {
                                     "x": -1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            {
+                                "name": "Dak Vlak Eind Links Achter",
+                                "id": "0_a_6_R_38_54_90_g",
+                                "level": 2,
+                                "position": {
+                                    "x": 5400,
+                                    "y": 9030,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": -1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            {
+                                "name": "Dak Nok",
+                                "id": "0_0_b_c_38_54_90_g",
+                                "level": 2,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": 1,
                                     "y": 0,
                                     "z": 0
                                 }

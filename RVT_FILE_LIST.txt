@@ -1,3 +1,4 @@
+0_0_b_c_38_54_90_g
 0_1_1_L_38_e_f_g
 0_1_1_R_38_54_f_g
 0_1_2_L_38_e_f_g
@@ -13,8 +14,10 @@
 0_3_2_L_38_e_f_g
 0_3_2_R_38_54_f_g
 0_3_b_c_38_54_f_g
+0_a_1_c_38_d_90_g
 0_a_1_L_38_e_90_g
 0_a_1_R_38_e_90_g
+0_a_2_c_38_d_90_g
 0_a_2_L_38_e_90_g
 0_a_2_R_38_e_90_g
 0_a_6_L_38_e_90_g
@@ -37,6 +40,7 @@
 2_1_B_54_90
 2_2_B_54_90
 achtergevel_1e
+achtergevel_2e
 achtergevel_bg
 casco_1e_links
 casco_1e_rechts
@@ -45,6 +49,7 @@ casco_2e_rechts
 casco_bg_links
 casco_bg_rechts
 voorgevel_1e
+voorgevel_2e
 voorgevel_bg
 zijgevel_1e_links
 zijgevel_1e_rechts

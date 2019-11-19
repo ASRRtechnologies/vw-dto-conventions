@@ -10,13 +10,13 @@
             {
                 "name": "Woningblok#1",
                 "position": {
-                    "x": 4000,
-                    "y": 2000,
+                    "x": 0,
+                    "y": 0,
                     "z": 0
                 },
                 "rotation": {
-                    "x": 0.5,
-                    "y": 0.4,
+                    "x": 1,
+                    "y": 0,
                     "z": 0
                 },
                 "houses": [
@@ -702,6 +702,21 @@
                                 },
                                 "rotation": {
                                     "x": -1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            {
+                                "name": "Dak Nok Links Hoek",
+                                "id": "0_a_2_c_38_e_90_g",
+                                "level": 2,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": 1,
                                     "y": 0,
                                     "z": 0
                                 }
@@ -2069,6 +2084,21 @@
                                 },
                                 "rotation": {
                                     "x": 1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            {
+                                "name": "Dak Nok Rechts Hoek",
+                                "id": "0_a_2_c_38_e_90_g",
+                                "level": 2,
+                                "position": {
+                                    "x": 5400,
+                                    "y": 9030,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": -1,
                                     "y": 0,
                                     "z": 0
                                 }

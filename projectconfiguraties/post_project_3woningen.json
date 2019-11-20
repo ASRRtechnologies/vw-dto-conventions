@@ -10,13 +10,13 @@
             {
                 "name": "Woningblok#1",
                 "position": {
-                    "x": 0,
+                    "x": 4000,
                     "y": 0,
-                    "z": 0
+                    "z": 6000
                 },
                 "rotation": {
-                    "x": 1,
-                    "y": 0,
+                    "x": 0.5,
+                    "y": 0.5,
                     "z": 0
                 },
                 "houses": [
@@ -147,6 +147,29 @@
                                         "height": 1917
                                     }
                                 ]
+                            },
+                            {
+                                "name": "Voorgevel 2e",
+                                "id": "voorgevel_2e",
+                                "level": 2,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "material": {
+                                    "name": "Brownish_Brick",
+                                    "color": {
+                                        "r": 191,
+                                        "g": 145,
+                                        "b": 99
+                                    }
+                                }
                             },
                             {
                                 "name": "Zijgevel BG Links",
@@ -375,6 +398,29 @@
                                         "height": 1917
                                     }
                                 ]
+                            },
+                            {
+                                "name": "Achtergevel 2e",
+                                "id": "achtergevel_2e",
+                                "level": 2,
+                                "position": {
+                                    "x": 5400,
+                                    "y": 9030,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": -1,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "material": {
+                                    "name": "Brownish_Brick",
+                                    "color": {
+                                        "r": 191,
+                                        "g": 145,
+                                        "b": 99
+                                    }
+                                }
                             },
                             {
                                 "name": "Con Vloer BG",
@@ -867,6 +913,29 @@
                                 ]
                             },
                             {
+                                "name": "Voorgevel 2e",
+                                "id": "voorgevel_2e",
+                                "level": 2,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "material": {
+                                    "name": "Brownish_Brick",
+                                    "color": {
+                                        "r": 191,
+                                        "g": 145,
+                                        "b": 99
+                                    }
+                                }
+                            },
+                            {
                                 "name": "Casco BG Links",
                                 "id": "casco_bg_links",
                                 "level": 0,
@@ -1069,6 +1138,29 @@
                                         "height": 1917
                                     }
                                 ]
+                            },
+                            {
+                                "name": "Achtergevel 2e",
+                                "id": "achtergevel_2e",
+                                "level": 2,
+                                "position": {
+                                    "x": 5400,
+                                    "y": 9030,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": -1,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "material": {
+                                    "name": "Brownish_Brick",
+                                    "color": {
+                                        "r": 191,
+                                        "g": 145,
+                                        "b": 99
+                                    }
+                                }
                             },
                             {
                                 "name": "Con Vloer BG",
@@ -1516,6 +1608,29 @@
                                 ]
                             },
                             {
+                                "name": "Voorgevel 2e",
+                                "id": "voorgevel_2e",
+                                "level": 2,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "material": {
+                                    "name": "Brownish_Brick",
+                                    "color": {
+                                        "r": 191,
+                                        "g": 145,
+                                        "b": 99
+                                    }
+                                }
+                            },
+                            {
                                 "name": "Casco BG Links",
                                 "id": "casco_bg_links",
                                 "level": 0,
@@ -1742,6 +1857,29 @@
                                         "height": 1917
                                     }
                                 ]
+                            },
+                            {
+                                "name": "Achtergevel 2e",
+                                "id": "achtergevel_2e",
+                                "level": 2,
+                                "position": {
+                                    "x": 5400,
+                                    "y": 9030,
+                                    "z": 0
+                                },
+                                "rotation": {
+                                    "x": -1,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "material": {
+                                    "name": "Brownish_Brick",
+                                    "color": {
+                                        "r": 191,
+                                        "g": 145,
+                                        "b": 99
+                                    }
+                                }
                             },
                             {
                                 "name": "Con Vloer BG",

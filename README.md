@@ -17,4 +17,4 @@ Some values were left out on purpose to show the functionality of the JSON schem
 https://hive.vw.asrr-tech.com/api/v3/hive/swagger-ui.html#/configuration-controller
 
 ## Check your configuration on the dashboard:
-www.volkerwessels.asrr.nl
+https://volkerwessels.asrr.nl/dashboard/1

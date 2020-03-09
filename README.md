@@ -1,7 +1,8 @@
 # JSON file structure conventions used by FORM
-### V1.0_26092019
 
-## Author's note: Work in Progress, will add further documentation and more robust pattern / key-value checking over time
+Patch notes:
+- Added typeconfigurationbased projectrequest
+- options/content property is now "configuration"
 
 ## How to use the JSON schema to validate your JSON files before requesting
 ### In your browser:

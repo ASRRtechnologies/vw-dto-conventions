@@ -1,0 +1,303 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "FORM TypeConfigurationBased ProjectConfigurationRequest JSON file structure conventions",
+  "required": [
+    "projectName",
+    "configuration"
+  ],
+  "properties": {
+    "projectName": {
+      "type": "string",
+      "pattern": "^(.*)$"
+    },
+    "outputLocations": {
+      "type": "object",
+      "description": "The locations where the output of a projectconfiguration are sent to",
+      "required": [
+        "trimble",
+        "azureBlob"
+      ],
+      "properties": {
+        "trimble": {
+          "type": "boolean",
+          "description": "Indicates whether the output is posted to Trimble"
+        },
+        "azureBlob": {
+          "type": "boolean",
+          "description": "Indicates whether the output is posted to Azure Blobstorage"
+        }
+      }
+    },
+    "configuration": {
+      "type": "object",
+      "required": [
+        "logo",
+        "contact",
+        "blocks"
+      ],
+      "properties": {
+        "logo": {
+          "type": "string",
+          "description": "The logo that will be used on all 2D output",
+          "enum": [
+            "boele_en_van_eesteren",
+            "digibase",
+            "goossen_te_pas_bouw",
+            "stam_de_koning"
+          ]
+        },
+        "contact": {
+          "type": "string",
+          "description": "Name of the contact that can be approached for questions about this projectconfiguration"
+        },
+        "exportFileTypes": {
+          "type": "object",
+          "description": "The desired output fileformats for each of the steps in a projectconfiguration",
+          "required": [
+            "house",
+            "block",
+            "project"
+          ],
+          "properties": {
+            "house": {
+              "type": "array",
+              "description": "The output fileformats for the houses in a projectconfiguration",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "RVT",
+                  "IFC",
+                  "PDF",
+                  "DWG"
+                ]
+              }
+            },
+            "block": {
+              "type": "array",
+              "description": "The output fileformats for the blocks in a projectconfiguration",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "RVT",
+                  "IFC",
+                  "PDF",
+                  "DWG"
+                ]
+              }
+            },
+            "project": {
+              "type": "array",
+              "description": "The output fileformats for the entire project in a projectconfiguration",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "RVT",
+                  "IFC"
+                ]
+              }
+            }
+          }
+        },
+        "blocks": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "position",
+              "rotation",
+              "houses"
+            ],
+            "properties": {
+              "name": {
+                "type": "string",
+                "default": "",
+                "examples": [
+                  "BlockName1"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "position": {
+                "type": "object",
+                "required": [
+                  "x",
+                  "z",
+                  "y"
+                ],
+                "properties": {
+                  "x": {
+                    "type": "number",
+                    "default": 0,
+                    "examples": [
+                      4498
+                    ]
+                  },
+                  "z": {
+                    "type": "number",
+                    "default": 0,
+                    "examples": [
+                      0
+                    ]
+                  },
+                  "y": {
+                    "type": "number",
+                    "default": 0,
+                    "examples": [
+                      16729
+                    ]
+                  }
+                }
+              },
+              "rotation": {
+                "type": "object",
+                "required": [
+                  "x",
+                  "y",
+                  "z"
+                ],
+                "properties": {
+                  "x": {
+                    "type": "number",
+                    "default": 0,
+                    "examples": [
+                      1
+                    ]
+                  },
+                  "y": {
+                    "type": "number",
+                    "default": 0,
+                    "examples": [
+                      0
+                    ]
+                  },
+                  "z": {
+                    "type": "number",
+                    "default": 0,
+                    "examples": [
+                      0
+                    ]
+                  }
+                }
+              },
+              "houses": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "name",
+                    "houseNumber",
+                    "position",
+                    "rotation",
+                    "type",
+                    "configOptions"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "default": "",
+                      "examples": [
+                        "HouseName"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "houseNumber": {
+                      "type": "integer",
+                      "title": "The Housenumber Schema",
+                      "default": 0,
+                      "examples": [
+                        1
+                      ]
+                    },
+                    "position": {
+                      "type": "object",
+                      "required": [
+                        "x",
+                        "z",
+                        "y"
+                      ],
+                      "properties": {
+                        "x": {
+                          "type": "number",
+                          "default": 0,
+                          "examples": [
+                            -280
+                          ]
+                        },
+                        "z": {
+                          "type": "number",
+                          "default": 0,
+                          "examples": [
+                            0
+                          ]
+                        },
+                        "y": {
+                          "type": "number",
+                          "default": 0,
+                          "examples": [
+                            0
+                          ]
+                        }
+                      }
+                    },
+                    "rotation": {
+                      "type": "object",
+                      "required": [
+                        "x",
+                        "y",
+                        "z"
+                      ],
+                      "properties": {
+                        "x": {
+                          "type": "number",
+                          "default": 0,
+                          "examples": [
+                            1
+                          ]
+                        },
+                        "y": {
+                          "type": "number",
+                          "default": 0,
+                          "examples": [
+                            0
+                          ]
+                        },
+                        "z": {
+                          "type": "number",
+                          "default": 0,
+                          "examples": [
+                            0
+                          ]
+                        }
+                      }
+                    },
+                    "type": {
+                      "type": "string",
+                      "enum": [
+                        "B"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "configOptions": {
+                      "type": "object",
+                      "patternProperties": {
+                        "^.*$": {
+                          "minProperties": 1,
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

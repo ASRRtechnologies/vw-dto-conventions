@@ -153,11 +153,18 @@
                 }
               },
               "rotation": {
-                "type": "object",
-                "required": [
-                  "x",
-                  "y",
-                  "z"
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "required": [
+                      "x",
+                      "y",
+                      "z"
+                    ]
+                  },
+                  {
+                    "type": "number"
+                  }
                 ],
                 "properties": {
                   "x": {

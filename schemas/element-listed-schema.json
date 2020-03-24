@@ -136,21 +136,40 @@
                 }
               },
               "rotation": {
-                "type": "object",
-                "required": [
-                  "x",
-                  "y",
-                  "z"
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "required": [
+                      "x",
+                      "y",
+                      "z"
+                    ]
+                  },
+                  {
+                    "type": "number"
+                  }
                 ],
                 "properties": {
                   "x": {
-                    "type": "number"
+                    "type": "number",
+                    "default": 0,
+                    "examples": [
+                      1
+                    ]
                   },
                   "y": {
-                    "type": "number"
+                    "type": "number",
+                    "default": 0,
+                    "examples": [
+                      0
+                    ]
                   },
                   "z": {
-                    "type": "number"
+                    "type": "number",
+                    "default": 0,
+                    "examples": [
+                      0
+                    ]
                   }
                 }
               },
@@ -193,21 +212,40 @@
                       }
                     },
                     "rotation": {
-                      "type": "object",
-                      "required": [
-                        "x",
-                        "y",
-                        "z"
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "required": [
+                            "x",
+                            "y",
+                            "z"
+                          ]
+                        },
+                        {
+                          "type": "number"
+                        }
                       ],
                       "properties": {
                         "x": {
-                          "type": "number"
+                          "type": "number",
+                          "default": 0,
+                          "examples": [
+                            1
+                          ]
                         },
                         "y": {
-                          "type": "number"
+                          "type": "number",
+                          "default": 0,
+                          "examples": [
+                            0
+                          ]
                         },
                         "z": {
-                          "type": "number"
+                          "type": "number",
+                          "default": 0,
+                          "examples": [
+                            0
+                          ]
                         }
                       }
                     },
@@ -313,21 +351,40 @@
                             }
                           },
                           "rotation": {
-                            "type": "object",
-                            "required": [
-                              "x",
-                              "y",
-                              "z"
+                            "anyOf": [
+                              {
+                                "type": "object",
+                                "required": [
+                                  "x",
+                                  "y",
+                                  "z"
+                                ]
+                              },
+                              {
+                                "type": "number"
+                              }
                             ],
                             "properties": {
                               "x": {
-                                "type": "number"
+                                "type": "number",
+                                "default": 0,
+                                "examples": [
+                                  1
+                                ]
                               },
                               "y": {
-                                "type": "number"
+                                "type": "number",
+                                "default": 0,
+                                "examples": [
+                                  0
+                                ]
                               },
                               "z": {
-                                "type": "number"
+                                "type": "number",
+                                "default": 0,
+                                "examples": [
+                                  0
+                                ]
                               }
                             }
                           },

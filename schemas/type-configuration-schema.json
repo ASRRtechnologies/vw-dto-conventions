@@ -1,7 +1,6 @@
 {
   "definitions": {},
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "http://example.com/root.json",
   "type": "object",
   "title": "FORM TypeConfigurationBased ProjectConfigurationRequest JSON file structure conventions",
   "required": [
@@ -252,11 +251,18 @@
                       }
                     },
                     "rotation": {
-                      "type": "object",
-                      "required": [
-                        "x",
-                        "y",
-                        "z"
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "required": [
+                            "x",
+                            "y",
+                            "z"
+                          ]
+                        },
+                        {
+                          "type": "number"
+                        }
                       ],
                       "properties": {
                         "x": {

@@ -3,7 +3,8 @@
 This repository serves as a central storage of important information about dto's (data transfer objects) that are used in the VolkerWessels ProjectConfigurator. Schemas can be found here that are used in FORM's backend to check incoming projectconfigurationrequests for validity.
 
 ## Notes
-The back-end does not currently support facade configuration requests. This will be revisited at a later stage
+- The back-end does not currently support facade configuration requests. This will be revisited at a later stage.
+- A rotation property can be either a vector: {x, y, z} or a number in degrees
 
 ## Which schema to use?
 As a gesture of backwards compatibility, much of the old Elementlisted projectconfigurationrequest format has been left the same in

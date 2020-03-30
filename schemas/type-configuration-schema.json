@@ -174,8 +174,7 @@
                   },
                   "z": {
                     "type": "number",
-                    "default": 0,
-                    "enum":  [0]
+                    "default": 0
                   }
                 }
               },
@@ -269,8 +268,7 @@
                         },
                         "z": {
                           "type": "number",
-                          "default": 0,
-                          "enum":  [0]
+                          "default": 0
                         }
                       }
                     },

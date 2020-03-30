@@ -130,24 +130,16 @@
                 "properties": {
                   "x": {
                     "type": "number",
-                    "default": 0,
-                    "examples": [
-                      4498
-                    ]
+                    "default": 0
+                  },
+                  "y": {
+	                "type": "number",
+	                "default": 0
                   },
                   "z": {
                     "type": "number",
                     "default": 0,
-                    "examples": [
-                      0
-                    ]
-                  },
-                  "y": {
-                    "type": "number",
-                    "default": 0,
-                    "examples": [
-                      16729
-                    ]
+                    "enum":  [0]
                   }
                 }
               },
@@ -183,9 +175,7 @@
                   "z": {
                     "type": "number",
                     "default": 0,
-                    "examples": [
-                      0
-                    ]
+                    "enum":  [0]
                   }
                 }
               },
@@ -234,19 +224,17 @@
                             -280
                           ]
                         },
-                        "z": {
-                          "type": "number",
-                          "default": 0,
-                          "examples": [
-                            0
-                          ]
-                        },
                         "y": {
                           "type": "number",
                           "default": 0,
                           "examples": [
                             0
                           ]
+                        },
+                        "z": {
+	                        "type": "number",
+	                        "default": 0,
+	                        "enum":  [0]
                         }
                       }
                     },
@@ -282,9 +270,7 @@
                         "z": {
                           "type": "number",
                           "default": 0,
-                          "examples": [
-                            0
-                          ]
+                          "enum":  [0]
                         }
                       }
                     },

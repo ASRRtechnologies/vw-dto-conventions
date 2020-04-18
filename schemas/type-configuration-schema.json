@@ -114,9 +114,12 @@
             "properties": {
               "name": {
                 "type": "string",
-                "default": "",
+                "default": "A",
                 "examples": [
-                  "BlockName1"
+                  "A",
+                  "B",
+                  "C",
+                  "D"
                 ],
                 "pattern": "^(.*)$"
               },

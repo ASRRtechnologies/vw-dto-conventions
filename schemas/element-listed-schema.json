@@ -113,7 +113,13 @@
             "properties": {
               "name": {
                 "type": "string",
-                "default": "Woningblok",
+                "default": "A",
+                "examples": [
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
                 "pattern": "^(.*)$"
               },
               "position": {

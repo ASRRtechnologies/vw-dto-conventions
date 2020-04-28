@@ -2,13 +2,14 @@
 
 This repository serves as a central storage of important information about dto's (data transfer objects) that are used in the VolkerWessels ProjectConfigurator. Schemas can be found here that are used in FORM's backend to check incoming projectconfigurationrequests for validity.
 
+## Patch notes
+- Included the option to override a model in a house configuration.
+- Removed unneccessary or outdated items (most importantly: elementlisted schema)
+
 ## Notes
 - The back-end does not currently support facade configuration requests. This will be revisited at a later stage.
 - A rotation property can be either a vector: {x, y, z} or a number in degrees
-
-## Which schema to use?
-As a gesture of backwards compatibility, much of the old Elementlisted projectconfigurationrequest format has been left the same in
-<b>'element-listed-schema.json'</b>. The new format that uses TypeConfigurations to decide what elements to use can be found in <b>'type-configuration-schema.json'</b>
+- Elementlisted configurations are no longer supported. Only typeconfiguration-based projectconfigurations can be sent
 
 ## How to use the JSON schema to validate your JSON files before requesting
 ### In your browser:

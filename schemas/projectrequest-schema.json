@@ -1,6 +1,4 @@
 {
-  "definitions": {},
-  "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "title": "FORM TypeConfigurationBased ProjectConfigurationRequest JSON file structure conventions",
   "required": [
@@ -136,8 +134,8 @@
                     "default": 0
                   },
                   "y": {
-	                "type": "number",
-	                "default": 0
+                    "type": "number",
+                    "default": 0
                   },
                   "z": {
                     "type": "number",
@@ -205,7 +203,6 @@
                     },
                     "houseNumber": {
                       "type": "integer",
-                      "title": "The Housenumber Schema",
                       "default": 0,
                       "examples": [
                         1
@@ -234,9 +231,9 @@
                           ]
                         },
                         "z": {
-	                        "type": "number",
-	                        "default": 0,
-	                        "enum":  [0]
+                            "type": "number",
+                            "default": 0,
+                            "enum":  [0]
                         }
                       }
                     },
@@ -277,6 +274,7 @@
                     },
                     "type": {
                       "type": "string",
+                      "description":  "The type this house has (this correlates to what typeconfiguration is used)",
                       "enum": [
                         "B"
                       ],
@@ -284,12 +282,41 @@
                     },
                     "configOptions": {
                       "type": "object",
+                      "description": "A dictionary of the configuration (choices) in this house (it is based on the typeconfiguration)",
+                      "minProperties": 1,
                       "patternProperties": {
                         "^.*$": {
-                          "minProperties": 1,
                           "type": "string"
                         }
                       }
+                    },
+                    "overrides": {
+                      "type":  "object",
+                      "description": "A collection of overrides that allows the request to override data that would otherwise be retrieved from a typeconfiguration",
+                      "required": [
+                        "modelElements"
+                      ],
+                      "properties": {
+                        "modelElements": {
+                          "type": "object",
+                          "description": "Overrides that have to do with modelelements and their model",
+                          "minProperties": 1,
+                          "patternProperties": {
+                            "^.*$": {
+                              "type": "object",
+                              "required": [
+                                "model"
+                              ],
+                              "properties": {
+                                "model": {
+                                  "type": "string",
+                                  "description": "Specifies a model to use instead of the model that would be retrieved from a typeconfiguration"
+                                }
+                              }
+                            }
+                          }
+                        } 
+                      } 
                     }
                   }
                 }

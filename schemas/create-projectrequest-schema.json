@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "title": "FORM TypeConfigurationBased ProjectConfigurationRequest JSON file structure conventions",
+  "title": "Project Request Schema for adding a request to an existing project",
   "required": [
     "projectName",
     "configuration"
@@ -187,11 +187,10 @@
                   "required": [
                     "name",
                     "houseNumber",
-                    "position",
-                    "rotation",
                     "type",
                     "configOptions"
                   ],
+                  "additionalProperties": false,
                   "properties": {
                     "name": {
                       "type": "string",
@@ -207,70 +206,6 @@
                       "examples": [
                         1
                       ]
-                    },
-                    "position": {
-                      "type": "object",
-                      "required": [
-                        "x",
-                        "z",
-                        "y"
-                      ],
-                      "properties": {
-                        "x": {
-                          "type": "number",
-                          "default": 0,
-                          "examples": [
-                            -280
-                          ]
-                        },
-                        "y": {
-                          "type": "number",
-                          "default": 0,
-                          "examples": [
-                            0
-                          ]
-                        },
-                        "z": {
-                            "type": "number",
-                            "default": 0,
-                            "enum":  [0]
-                        }
-                      }
-                    },
-                    "rotation": {
-                      "anyOf": [
-                        {
-                          "type": "object",
-                          "required": [
-                            "x",
-                            "y",
-                            "z"
-                          ]
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ],
-                      "properties": {
-                        "x": {
-                          "type": "number",
-                          "default": 0,
-                          "examples": [
-                            1
-                          ]
-                        },
-                        "y": {
-                          "type": "number",
-                          "default": 0,
-                          "examples": [
-                            0
-                          ]
-                        },
-                        "z": {
-                          "type": "number",
-                          "default": 0
-                        }
-                      }
                     },
                     "type": {
                       "type": "string",

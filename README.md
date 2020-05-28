@@ -3,8 +3,8 @@
 This repository serves as a central storage of important information about dto's (data transfer objects) that are used in the VolkerWessels ProjectConfigurator. Schemas can be found here that are used in FORM's backend to check incoming projectconfigurationrequests for validity.
 
 ## Patch notes
+- Removed position and rotation from houses. These are determined based on the selected options in a block (houses can't rotate, so that's just 0)
 - Included the option to override a model in a house configuration.
-- Removed unneccessary or outdated items (most importantly: elementlisted schema)
 
 ## Notes
 - The back-end does not currently support facade configuration requests. This will be revisited at a later stage.

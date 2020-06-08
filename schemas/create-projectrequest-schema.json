@@ -28,12 +28,16 @@
         }
       }
     },
-    "configuration": {
+    "company": {
       "type": "object",
       "required": [
         "logo",
-        "contact",
-        "blocks"
+        "name",
+        "email",
+        "bezoekAdres",
+        "correspondentieAdres",
+        "site",
+        "telefoon"
       ],
       "properties": {
         "logo": {
@@ -46,6 +50,75 @@
             "stam_de_koning"
           ]
         },
+        "name": {
+          "type": "string",
+          "description": "Name of the company that can be approached for questions about this projectconfiguration"
+        },
+        "email": {
+          "type": "string",
+          "description": "Email of the company that can be approached for questions about this projectconfiguration"
+        },
+        "site": {
+          "type": "string",
+          "description": "Email of the company that can be approached for questions about this projectconfiguration"
+        },
+        "telefoon": {
+          "type": "string",
+          "description": "Email of the company that can be approached for questions about this projectconfiguration"
+        },
+        "bezoekAdres": {
+          "type": "object",
+          "required": [
+            "streetName",
+            "streetNumber",
+            "zipCode",
+            "city"
+          ],
+          "properties": {
+            "streetName": {
+              "type": "string"
+            },
+            "streetNumber": {
+              "type": "string"
+            },
+            "zipCode": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            }
+          },
+          "correspondentieAdres": {
+            "type": "object",
+            "required": [
+              "streetName",
+              "streetNumber",
+              "zipCode",
+              "city"
+            ],
+            "properties": {
+              "streetName": {
+                "type": "string"
+              },
+              "streetNumber": {
+                "type": "string"
+              },
+              "zipCode": {
+                "type": "string"
+              },
+              "city": {
+                "type": "string"
+              }
+            }
+      }
+    },
+    "configuration": {
+      "type": "object",
+      "required": [
+        "contact",
+        "blocks"
+      ],
+      "properties": {
         "contact": {
           "type": "string",
           "description": "Name of the contact that can be approached for questions about this projectconfiguration"

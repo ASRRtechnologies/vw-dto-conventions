@@ -1,14 +1,14 @@
 # VolkerWessels ProjectConfigurator Dto Conventions
 
-This repository serves as a central storage of important information about dto's (data transfer objects) that are used in the VolkerWessels ProjectConfigurator. Schemas can be found here that are used in FORM's backend to check incoming projectconfigurationrequests for validity.
+This repository serves as a central storage of important information about dto's (data transfer objects) that are used in the VolkerWessels ProjectConfigurator. Schemas can be found here that are used in FORM's backend to check incoming projectconfigurationrequests for validity, as well as facadeconfigurations.
 
 ## Patch notes
+- Redesigned facade configurations
 - Removed position and rotation from houses. These are determined based on the selected options in a block (houses can't rotate, so that's just 0)
 - Included the option to override a model in a house configuration.
 
 ## Notes
-- The back-end does not currently support facade configuration requests. This will be revisited at a later stage.
-- A rotation property can be either a vector: {x, y, z} or a number in degrees
+- A rotation property can be either a unit-circle vector: {x, y, z} or a number in degrees
 - Elementlisted configurations are no longer supported. Only typeconfiguration-based projectconfigurations can be sent
 
 ## How to use the JSON schema to validate your JSON files before requesting
@@ -21,7 +21,7 @@ Alternatively, to test it directly in your editor (we suggest <b>Visual Studio C
 - Not all keys are required, but there are a few exceptions: <i>e.g. the (sub)elements are not required, but if included, their properties must exist.</i>
 
 ## Send requests using Swagger UI:
-https://hive.vw.asrr-tech.com/api/v3/hive/swagger-ui.html#/configuration-controller
+https://hive.vw.asrr-tech.com/hive/api/v3/swagger-ui.html#/
 
 ## Check your configuration on the dashboard:
 https://volkerwessels.asrr.nl/dashboard/1

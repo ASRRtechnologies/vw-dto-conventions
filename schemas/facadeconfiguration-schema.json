@@ -1,0 +1,115 @@
+{
+  "title": "Facade Configuration Schema",
+  "type": "object",
+  "required": [
+    "name",
+    "masonry"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of this configuration"
+    },
+    "masonry": {
+      "type": "array",
+      "description": "A list of all masonry components that make this facade, including soldier courses",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "The type of masonry (i.e. color/orientation of the brick)"
+          },
+          "bounds": {
+            "type": "object",
+            "description": "The bounds of this masonry surface, i.e. where the masonry stops before the outer edges of the facade. If absent, this masonry covers the entire facade",
+            "properties": {
+              "left": {
+                "type": "number",
+                "description": "The min x value in mm's where this masonry starts. If absent, this masonry extends to the outer left edge of the facade (and further across any facade offsets)"
+              },
+              "right": {
+                "type": "number",
+                "description": "The min x value in mm's where this masonry ends. If absent, this masonry extends to the outer right edge of the facade (and further across any facade offsets)"
+              },
+              "bottom": {
+                "type": "number",
+                "description": "The min z (up) value in mm's where this masonry starts. If absent, this masonry extends to the bottom edge of the facade"
+              },
+              "top": {
+                "type": "number",
+                "description": "The max z (up) value in mm's where this masonry ends. If absent, this masonry extends to the top edge of the facade"
+              }
+            },
+            "additionalProperties": false
+          },
+          "yOffset": {
+            "type": "number",
+            "description": "The y value in mm's of this masonry. Use to extrude (-y) or inset (+y) masonry. If absent, y = 0"
+          }
+        },
+        "required": [
+          "type"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "elements": {
+      "type": "array",
+      "description": "The elements (like windows & doors) that are put into the facade", 
+      "required": [
+        "type",
+        "id",
+        "position",
+        "width",
+        "height"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "The type of this element, i.e. whether its a frame or a windowsill, etc.",
+          "enum": [
+            "kozijn",
+            "dorpel",
+            "luifel"
+          ]
+        },
+        "id": {
+          "type": "string",
+          "description": "The name/id of this specific element so it can be found"
+        },
+        "position": {
+          "type": "object",
+          "description": "The position of this element relative to the bottom left of the facade, with its origin being at the bottom left of the element",
+          "required": [
+            "x",
+            "y",
+            "z"
+          ],
+          "properties": {
+            "x": {
+              "type": "number",
+              "description": "The x value in mm's of this element's position"
+            },
+            "y": {
+              "type": "number",
+              "description": "The y value in mm's of this element's position. Used to extrude (-y) or inset (+y) from/into the facade"
+            },
+            "z": {
+              "type": "number",
+              "description": "The z (up) value in mm's of this element's position."
+            }
+          }
+        },
+        "width": {
+          "type": "number",
+          "description": "The width of this element (the void that is cut to facilitate this element is based on this value"
+        },
+        "height": {
+          "type": "number",
+          "description": "The height of this element (the void that is cut to facilitate this element is based on this value"
+        }
+      }
+    }
+  }
+}

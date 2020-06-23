@@ -1,0 +1,71 @@
+{
+    "name": "facadeconfig_masonryblock_l_V00",
+    "masonry": [
+        {
+            "type": "wit",
+            "bounds": {
+                "top": 1500
+            }
+        },
+        {
+            "type": "oranje",
+            "bounds": {
+                "bottom": 1500
+            }
+        },
+        {
+            "type": "zwart",
+            "bounds": {
+                "left": 2000,
+                "bottom": 1000,
+                "top": 2200
+            }
+        }
+    ],
+    "elements": [
+        {
+            "type": "kozijn",
+            "id": "AA01-00",
+            "position": {
+                "x": 1210,
+                "y": 76,
+                "z": -32
+            },
+            "width": 1110,
+            "height": 2434
+        },
+        {
+            "type": "luifel",
+            "id": "NLRS_27_GM_WPB_luifel_beton_gen_vws",
+            "position": {
+                "x": 1060,
+                "y": 0,
+                "z": 2402
+            },
+            "width": 1410,
+            "height": 175
+        },
+        {
+            "type": "kozijn",
+            "id": "LA02-00",
+            "position": {
+                "x": 3310,
+                "y": 76,
+                "z": 1017
+            },
+            "width": 1330,
+            "height": 1385
+        },
+        {
+            "type": "dorpel",
+            "id": "NLRS_31_GM_WPB_raamdorpel_beton_50-90x160_gen_vws",
+            "position": {
+                "x": 3310,
+                "y": 0,
+                "z": 921
+            },
+            "width": 1330,
+            "height": 96
+        }
+    ]
+}

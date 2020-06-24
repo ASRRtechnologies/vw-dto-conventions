@@ -2,7 +2,7 @@
   "type": "object",
   "title": "Project Request Schema for adding a request to an existing project",
   "required": [
-    "projectName",
+    "project",
     "name",
     "author",
     "source",
@@ -12,7 +12,7 @@
     "configuration"
   ],
   "properties": {
-    "projectName": {
+    "project": {
       "type": "string",
       "pattern": "^(.*)$",
       "description": "The name of the project this request belongs to"

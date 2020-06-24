@@ -3,12 +3,49 @@
   "title": "Project Request Schema for adding a request to an existing project",
   "required": [
     "projectName",
+    "name",
+    "author",
+    "source",
+    "wip",
+    "outputLocations",
+    "company",
     "configuration"
   ],
   "properties": {
     "projectName": {
       "type": "string",
-      "pattern": "^(.*)$"
+      "pattern": "^(.*)$",
+      "description": "The name of the project this request belongs to"
+    },
+    "name": {
+      "type": "string",
+      "description": "The name of the projectrequest"
+    },
+    "author": {
+      "type": "string",
+      "description": "The login name of the person who submitted the request"
+    },
+    "phase": {
+      "type": "string",
+      "description": "The current phase of the project",
+      "enum": [
+        "OV"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "description": "The current state of the project",
+      "enum": [
+        "Concept"
+      ]
+    },
+    "source": {
+      "type": "string",
+      "description": "The source application the request was sent from"
+    },
+    "wip": {
+      "type": "boolean",
+      "description": "Whether or not the request should be sent to produce output. If true, the request won't be sent and is merely stored for later retrieval"
     },
     "outputLocations": {
       "type": "object",
@@ -26,18 +63,20 @@
           "type": "boolean",
           "description": "Indicates whether the output is posted to Azure Blobstorage"
         }
-      }
+      },
+      "additionalProperties": false
     },
     "company": {
       "type": "object",
+      "description": "Company information that should be visible on the output",
       "required": [
         "logo",
         "name",
         "email",
-        "bezoekAdres",
-        "correspondentieAdres",
-        "site",
-        "telefoon"
+        "visitingAddress",
+        "correspondenceAddress",
+        "website",
+        "phone"
       ],
       "properties": {
         "logo": {
@@ -58,15 +97,38 @@
           "type": "string",
           "description": "Email of the company that can be approached for questions about this projectconfiguration"
         },
-        "site": {
+        "website": {
           "type": "string",
           "description": "Email of the company that can be approached for questions about this projectconfiguration"
         },
-        "telefoon": {
+        "phone": {
           "type": "string",
           "description": "Email of the company that can be approached for questions about this projectconfiguration"
         },
-        "bezoekAdres": {
+        "visitingAddress": {
+          "type": "object",
+          "required": [
+            "streetName",
+            "streetNumber",
+            "zipCode",
+            "city"
+          ],
+          "properties": {
+            "streetName": {
+              "type": "string"
+            },
+            "streetNumber": {
+              "type": "string"
+            },
+            "zipCode": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            }
+          }
+        },
+        "correspondenceAddress": {
           "type": "object",
           "required": [
             "streetName",
@@ -88,35 +150,17 @@
               "type": "string"
             }
           },
-          "correspondentieAdres": {
-            "type": "object",
-            "required": [
-              "streetName",
-              "streetNumber",
-              "zipCode",
-              "city"
-            ],
-            "properties": {
-              "streetName": {
-                "type": "string"
-              },
-              "streetNumber": {
-                "type": "string"
-              },
-              "zipCode": {
-                "type": "string"
-              },
-              "city": {
-                "type": "string"
-              }
-            }
-      }
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
     },
     "configuration": {
       "type": "object",
       "required": [
         "contact",
-        "blocks"
+        "blocks",
+        "exportFileTypes"
       ],
       "properties": {
         "contact": {
@@ -169,7 +213,8 @@
                 ]
               }
             }
-          }
+          },
+          "additionalProperties": false
         },
         "blocks": {
           "type": "array",
@@ -178,6 +223,7 @@
             "type": "object",
             "required": [
               "name",
+              "architect",
               "position",
               "rotation",
               "houses"
@@ -194,6 +240,10 @@
                 ],
                 "pattern": "^(.*)$"
               },
+              "architect": {
+								"type": "string",
+								"description": "The company that designed this block"
+							},
               "position": {
                 "type": "object",
                 "required": [
@@ -213,7 +263,9 @@
                   "z": {
                     "type": "number",
                     "default": 0,
-                    "enum":  [0]
+                    "enum": [
+                      0
+                    ]
                   }
                 }
               },
@@ -282,7 +334,7 @@
                     },
                     "type": {
                       "type": "string",
-                      "description":  "The type this house has (this correlates to what typeconfiguration is used)",
+                      "description": "The type this house has (this correlates to what typeconfiguration is used)",
                       "enum": [
                         "B"
                       ],
@@ -299,7 +351,7 @@
                       }
                     },
                     "overrides": {
-                      "type":  "object",
+                      "type": "object",
                       "description": "A collection of overrides that allows the request to override data that would otherwise be retrieved from a typeconfiguration",
                       "required": [
                         "modelElements"
@@ -323,16 +375,29 @@
                               }
                             }
                           }
-                        } 
-                      } 
-                    }
+                        }
+                      }
+                    },
+                    "facadeConfigurations": {
+											"type": "object",
+											"description": "Lists the facades (modelelements) that should be configured with the indicated facadeconfiguration",
+											"minProperties": 1,
+											"patternProperties": {
+												"^.*$": {
+													"type": "string"
+												}
+											}
+										}
                   }
                 }
               }
-            }
+            },
+            "additionalProperties": false
           }
         }
-      }
+      },
+      "additionalProperties": false
     }
-  }
+  },
+  "additionalProperties": false
 }

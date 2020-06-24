@@ -241,9 +241,9 @@
                 "pattern": "^(.*)$"
               },
               "architect": {
-								"type": "string",
-								"description": "The company that designed this block"
-							},
+                "type": "string",
+                "description": "The company that designed this block"
+              },
               "position": {
                 "type": "object",
                 "required": [
@@ -379,15 +379,15 @@
                       }
                     },
                     "facadeConfigurations": {
-											"type": "object",
-											"description": "Lists the facades (modelelements) that should be configured with the indicated facadeconfiguration",
-											"minProperties": 1,
-											"patternProperties": {
-												"^.*$": {
-													"type": "string"
-												}
-											}
-										}
+                      "type": "object",
+                      "description": "Lists the facades (modelelements) that should be configured with the indicated facadeconfiguration",
+                      "minProperties": 1,
+                      "patternProperties": {
+                        "^.*$": {
+                          "type": "string"
+                        }
+                      }
+                    }
                   }
                 }
               }

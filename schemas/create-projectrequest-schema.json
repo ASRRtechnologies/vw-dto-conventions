@@ -336,8 +336,9 @@
                       "type": "string",
                       "description": "The type this house has (this correlates to what typeconfiguration is used)",
                       "enum": [
-                        "B"
-                      ],
+												"B",
+												"Bs"
+											],
                       "pattern": "^(.*)$"
                     },
                     "configOptions": {

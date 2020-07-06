@@ -18,7 +18,24 @@
         "properties": {
           "type": {
             "type": "string",
-            "description": "The type of masonry (i.e. color/orientation of the brick)"
+            "description": "The type of masonry (what style of brick is used)",
+            "enum": [
+              "Rood",
+              "Rood genuanceerd",
+              "Geel genuanceerd",
+              "Paars",
+              "Paars genuanceerd",
+              "Oranje",
+              "Oranje genuanceerd",
+              "Antraciet",
+              "Brons",
+              "Geel",
+              "Wit"
+            ] 
+          },
+          "isVertical": {
+            "type": "boolean",
+            "description":  "Indicates whether the bricks are placed at a 90 degree angle. If unspecified: brick will remain horizontal"
           },
           "bounds": {
             "type": "object",

@@ -42,19 +42,19 @@
             "description": "The bounds of this masonry surface, i.e. where the masonry stops before the outer edges of the facade. If absent, this masonry covers the entire facade",
             "properties": {
               "left": {
-                "type": "number",
+                "type": [ "number", "null" ],
                 "description": "The min x value in mm's where this masonry starts. If absent, this masonry extends to the outer left edge of the facade (and further across any facade offsets)"
               },
               "right": {
-                "type": "number",
+                "type": [ "number", "null" ],
                 "description": "The min x value in mm's where this masonry ends. If absent, this masonry extends to the outer right edge of the facade (and further across any facade offsets)"
               },
               "bottom": {
-                "type": "number",
+                "type": [ "number", "null" ],
                 "description": "The min z (up) value in mm's where this masonry starts. If absent, this masonry extends to the bottom edge of the facade"
               },
               "top": {
-                "type": "number",
+                "type": [ "number", "null" ],
                 "description": "The max z (up) value in mm's where this masonry ends. If absent, this masonry extends to the top edge of the facade"
               }
             },
@@ -63,6 +63,10 @@
           "yOffset": {
             "type": "number",
             "description": "The y value in mm's of this masonry. Use to extrude (-y) or inset (+y) masonry. If absent, y = 0"
+          },
+          "layer": {
+            "type": "integer",
+            "description": "An integer value starting from 0 that represents in what order the masonry has to be drawn. Higher means the masonry is drawn on top of lower layered masonry" 
           }
         },
         "required": [

@@ -3,15 +3,14 @@
 This repository serves as a central storage of important information about dto's (data transfer objects) that are used in the VolkerWessels ProjectConfigurator. Schemas can be found here that are used in FORM's backend to check incoming projectconfigurationrequests for validity, as well as facadeconfigurations.
 
 ## Patch notes
+- Masonry in a facadeconfiguration can now be ordered (so 1 masonry is drawn over another) by including a "layer" property
 - Masonry in a facadeconfiguration can now be denoted as vertical with the 'isVertical' property
 - Included facadeConfigurations property in houses
 - Redesigned facade configurations
 - Removed position and rotation from houses. These are determined based on the selected options in a block (houses can't rotate, so that's just 0)
-- Included the option to override a model in a house configuration.
 
 ## Notes
 - A rotation property can be either a unit-circle vector: {x, y, z} or a number in degrees
-- Elementlisted configurations are no longer supported. Only typeconfiguration-based projectconfigurations can be sent
 
 ## How to use the JSON schema to validate your JSON files before requesting
 ### In your browser:
